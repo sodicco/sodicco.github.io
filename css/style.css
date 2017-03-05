@@ -1,0 +1,97 @@
+.card {
+border: 2px solid white;
+border-radius: 4px;
+padding: 5px;
+box-shadow: 10px 10px 5px #888888;
+margin-bottom: 10px;
+}
+
+.card2 {
+border: 2px solid white;
+border-radius: 4px;
+padding: 5px;
+box-shadow: 10px 10px 5px #888888;
+margin-bottom: 10px;
+}
+
+.cardback {
+border: 2px solid grey;
+border-radius: 4px;
+padding: 5px;
+margin-bottom: 10px;
+}
+
+.progress {
+
+}
+
+.progress-bar {
+
+}
+
+.color1 {
+
+background-color: grey;
+
+}
+
+.color2 {
+
+background-color: blue;
+
+}
+
+.color3 {
+
+background-color: #008080;
+
+}
+
+.color4 {
+
+background-color: #191970;
+
+}
+
+.SodicColor {
+
+background-color: #9ACD32;
+
+}
+
+
+
+.profile-pic {
+	max-width: 100%;
+
+}
+
+.mycard{
+background: url("../img/background.jpg");
+background-size: cover;
+min-height: 100%;
+
+}
+
+.mycard2{
+background: url("../img/backintro.png");
+background-size: cover;
+min-height: 100%;
+
+}
+
+.row {
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: -ms-flexbox;
+	display: flex;
+	flex-wrap: wrap;
+}
+.row > [class*='col-'] {
+	display: flex;
+	flex-direction: column;
+}
+
+h1,h2,a{
+  color: white;
+}
